@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App name -->
+    <string name="app_name">Apollo</string>
+
+    <!-- Content descriptions for the Bottom Action Bar -->
+    <string name="cd_favorite">Ajouter cette chanson dans vos favoris</string>
+    <string name="cd_search">Rechercher dans votre musique</string>
+
+    <string name="cd_overflow">Voir plus d\'options</string>
+    <string name="cd_bottom_action_bar_album_art">Pochette d\'album pour cette chanson</string>
+
+    <string name="cd_repeat">Répéter une seule fois ou tout</string>
+
+
+    <string name="cd_previous">Précédente</string>
+    <string name="cd_play">Jouer</string>
+    <string name="cd_next">Suivante</string>
+    <string name="cd_shuffle">Écoute aléatoire</string>
+
+    <!-- AudioPlayer title -->
+
+
+    <string name="nowplaying">Lecture en cours</string>
+
+
+
+    <!-- Used to indicate the number of albums for an artist -->
+    <plurals name="Nalbums">
+        
+        <!-- Number of albums is one -->
+        <item quantity="one">1 album</item>
+        <!-- Number of albums is more than one -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> albums</item>
+    </plurals>
+
+    <!-- Used to indicate the number of songs for an album -->
+
+    <plurals name="Nsongs">
+
+        <!-- Number of songs is one -->
+        <item quantity="one">1 chanson</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> chansons</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+
+        <!-- message shown when one song was added -->
+        <item quantity="one">1 chanson ajoutée à la liste de lecture.</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> chansons ajoutées à la liste de lecture.</item>
+    </plurals>
+
+    <!-- Headers -->
+
+    <string name="album_header">LISTE D\'ALBUMS</string>
+    <string name="track_header">LISTE DE CHANSONS</string>
+
+
+
+    <!-- Options MenuItems -->
+    <string name="settings">Paramètres</string>
+    <string name="shuffle_all">Tout écouter aléatoirement</string>
+    <string name="share">Partager</string>
+    <string name="play_store">Play Store</string>
+
+    <!-- Set track as ringtone -->
+    <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" définie comme sonnerie</string>
+
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="rename_playlist">Renommer la liste de lecture</string>
+
+    <!-- Shuffle and repeat messages -->
+
+
+    <string name="repeat_one">Répéter une seule fois</string>
+
+
+    <string name="repeat_all">Activer la répétition</string>
+    <string name="repeat_off">Désactiver la répétition</string>
+    <string name="shuffle_off">Désactiver la lecture aléatoire</string>
+    <string name="shuffle_on">Activer la lecture aléatoire</string>
+
+    <!-- Share Intent -->
+
+
+    <string name="now_listening_to">En écoute présentement:</string>
+
+
+    <string name="by">par</string>
+    <string name="share_track_using">Partager la chanson avec</string>
+
+    <!-- ContextMenu items -->
+    <string name="play_all">Tout jouer</string>
+    <string name="add_to_playlist">Ajouter à la liste de lecture</string>
+    <string name="use_as_ringtone">Utiliser comme sonnerie</string>
+    <string name="delete_playlist">Supprimer la liste de lecture</string>
+    <string name="search">Rechercher</string>
+    <string name="remove">Retirer de la liste de lecture</string>
+
+    <!-- App Widgets -->
+    <string name="apollo_1x1">Apollo (1x1)</string>
+    <string name="apollo_4x1">Apollo (4x1)</string>
+    <string name="apollo_4x2">Apollo (4x2)</string>
+
+    <!-- Unknown genre name -->
+    <string name="unknown">Inconnu</string>
+
+    <!-- Settings -->
+    <string name="about">À propos d\'Apollo</string>
+    <string name="eqalizer">Égaliseur</string>
+    <string name="header_interface">Interface</string>
+    <string name="themes">Thèmes</string>
+    <string name="apollo_themes">Sélectionner les thème pour Apollo</string>
+    <string name="select_theme">Sélectionner vos thème</string>
+    <string name="version">Version d\'Apollo</string>
+
+
+    <!-- Settings keys -->
+    <string name="key_themes" translatable="false">themepreview</string>
+    <string name="key_themes_package" translatable="false">themePackageName</string>
+    <string name="key_themes_preferences" translatable="false">themePrefences</string>
+    <string name="key_build_version" translatable="false">build_version</string>
+
+    <!-- Theme layout Buttons -->
+    <string name="apply_theme">Appliquer le thème</string>
+    <string name="get_more_themes">Obtenir plus de thèmes</string>
+
+    <!-- Playlists menu -->
+    <string name="favorite">Favoris</string>
+    <string name="queue">En attente</string>
+    <string name="new_playlist">Nouvelle liste de lecture</string>
+    <string name="new_playlist_name_template">Liste de lecture <xliff:g id="number">%d</xliff:g></string>
+    <string name="save">Sauvegarder</string>
+    <string name="overwrite">Écraser</string>
+
+    <!-- Tabs -->
+
+    <string name="tab_recent">RÉCENT</string>
+    <string name="tab_artists">ARTISTES</string>
+    <string name="tab_albums">ALBUMS</string>
+    <string name="tab_songs">CHANSONS</string>
+    <string name="tab_playlists">LISTES DE LECTURE</string>
+    <string name="tab_genres">GENRES</string>
+
+    <!-- Something went wrong -->
+    <string name="error">Erreur</string>
+
+</resources>
